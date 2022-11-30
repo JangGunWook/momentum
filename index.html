@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src ="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            
+            background-image: url("https://pbs.twimg.com/media/FPtBIC5XwAYrtBe?format=jpg&name=900x900");
+            background-position: center center;
+            background-size: contain;
+            
+            color: rgb(228, 243, 14);
+        }
+
+        .time {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;  
+        }
+
+        .todo {
+            font-size: 50px;
+        }
+        
+        .author {
+            font-size: 50px;
+            font-style: italic;
+        }
+
+        .content {
+
+            font-size: 30px;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+               
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+            color : rgb(61, 233, 75);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+            
+        
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>                      <!--id="time" .js(자바스크립트)의 #time을 의미한다.(자바스크립트에서의 #은 id를 의미함)-->
+        <div class="greeting">Hellow, Gun Wook</div>        
+        <div class="todo">크롬 배경화면 만들기</div>
+    </div>
+        <div class="quote"> 
+        <div id="author" class="author">- 명언의 저자 -</div>           <!--id="author" .js(자바스크립트)의 #author을 의미한다.(자바스크립트에서의 #은 id를 의미함)-->
+        <div id="content" class="content">" 명언의 내용 "</div>                      <!--id="content" .js(자바스크립트)의 #content을 의미한다.(자바스크립트에서의 #은 id를 의미함)-->
+    </div>
+</body>
+
+
+
+
+
+</html>
